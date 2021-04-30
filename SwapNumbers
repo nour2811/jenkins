@@ -21,3 +21,4 @@ public class SwapNumbers {
         System.out.println("First number = " + first);
         System.out.println("Second number = " + second);
     }
+}
