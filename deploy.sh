@@ -1,7 +1,6 @@
 #!/bin/bash
 #deploy_local.sh
-sudo mkdir -p /app
-sudo chmod 750 /app
-sudo cp helloWorld.class/app
-sudo cd /app
+mkdir -p /app
+cp helloWorld.class /app
+cd /app
 java helloWorld
