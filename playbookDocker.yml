@@ -4,8 +4,8 @@
   become: yes
 
   tasks:
-    - name: Installation de Docker
-      shell: amazon-linux-extras install -y docker
+    - name: Installation de Docker et démarrage de docker
+      shell: amazon-linux-extras install -y docker && systemctl start docker
       register: result_install
 
     - debug:
