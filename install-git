@@ -1,0 +1,7 @@
+--- # install git on target host
+  - hosts: application
+    become: yes
+    tasks:
+    - name: install git
+      yum:
+        name: git
